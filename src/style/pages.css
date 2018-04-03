@@ -1,0 +1,28 @@
+.index-content{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.index-row{
+    margin:30px 0;
+}
+
+.index-input-box{
+    width: 470px;
+    font-size:1em;
+    height: 30px;
+    padding-left: 1em;
+    
+}
+.index-button{
+    height: 35px;
+    width: 70px;
+    font-size: 15px;
+    background-color:#448bc7;
+    color: aliceblue;
+    border:0px solid #448bc7;
+    cursor:pointer;
+}
+.index-button:hover{
+    background-color:#4488ad;
+}
