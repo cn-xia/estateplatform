@@ -1,5 +1,5 @@
 <template>
-    <div class="userbox">
+    <div id="userbox" class="userbox">
         <el-row>
             <el-col :span="18" :offset="3">
                 <div class="userbox-text">

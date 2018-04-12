@@ -1,5 +1,5 @@
 <template>
-  <div class="robotbox">
+  <div id="robotbox" class="robotbox">
         <el-row>
             <el-col :span="2" :offset="1">
                 <div class="robotbox-img">

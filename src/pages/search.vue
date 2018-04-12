@@ -63,6 +63,7 @@ export default {
       //console.log(requestData);
       $.get(this.ServerPath.ipAddress+this.ServerPath.getAnswer,requestData).done(function(res){
           //console.log(res);
+          console.log(res);
       });
 
       /* requestData.key = "AIzaSyAB47tp2jJYwm1136krSRiksoBdLlGP8qM";
@@ -120,15 +121,15 @@ export default {
       var requestData = {};   //{'question':searchtext}
       requestData.question = this.searchtext;
       this.$router.push({path:'/search',query:{question:this.searchtext}}); 
-      //this.getAnswerFromServer();
-      this.getAnswerFromGoogle(1);
+      this.getAnswerFromServer();
+      //this.getAnswerFromGoogle(1);
     }
   },
   mounted(){
     this.init();
-    //this.getAnswerFromServer();
-    //this.setTestData(goData);
-    this.getAnswerFromGoogle(1)
+    this.getAnswerFromServer();
+    this.setTestData(goData);
+    //this.getAnswerFromGoogle(1)
   }
 }
 </script>

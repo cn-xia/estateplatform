@@ -10,7 +10,7 @@
                   <el-row>
                       <el-col :span="17">
                           <el-row>
-                              <div class="im-dialog">
+                              <div  id="imWindow" class="im-dialog">
                                     <component :is="unit.type" v-for="unit in infoList" :key="unit.id"
                                         :question=unit.question
                                         :rsUnits=unit.rsUnits>
@@ -58,7 +58,7 @@ export default {
             placeholder:"您好！输入框在这里，您可以输入想要咨询的问题，我来为您解答！",
             infoList:[/* {id:1,type:"userdialogbox",question:"一百万能买什么样的房子"},{id:2,type:"robotdialogbox"} */],
             commonQusList:[
-                {id:1,title:"一百万能买到什么样的房子"},
+                {id:1,title:"买房子贷款需要走什么程序"},
                 {id:2,title:"如何查看房屋产权年限"},
                 {id:3,title:"房屋转让需要什么手续"},
                 {id:4,title:"房屋拆迁补偿协议"},
@@ -88,21 +88,40 @@ export default {
             qunit.type = "userdialogbox";
             qunit.question = this.questionText;
             this.infoList.push(qunit);
-            this.applyAnswer();
+            //this.scrollControl("imWindow")
+            var serverData = {};
+            serverData.question = this.questionText;
+            var _this = this;
+            $.get(this.ServerPath.ipAddress+this.ServerPath.getAnswer,serverData).done(function(res){
+                //console.log(res);
+                if(res.errCode == 10){
+                    console.log(res);
+                    var quesProcessed = "";
+                    res.keyWords.forEach(element =>{
+                        quesProcessed = quesProcessed+element+" ";
+                    });
+                    _this.applyAnswer(quesProcessed);
+                }
+                
+            });
+
+          
+
+
         },
-        applyAnswer(){
+        applyAnswer(quesProcessed){
             var aunit ={};
             var count = this.infoList.length;
             aunit.id = count+1;
             aunit.question = this.questionText;
             aunit.type = "robotdialogbox";
             
-            requestData.q = this.questionText;
+            requestData.q = quesProcessed;
             this.questionText ="";
             //console.log(this.infoList)
 
             var _this = this;
-            $.get("https://www.googleapis.com/customsearch/v1",requestData).done(function(goData){
+            $.get(this.ServerPath.demoAddress,requestData).done(function(goData){
                 var items = goData.items;
                 var rsUnits = [];
                 var id=1;
@@ -118,7 +137,7 @@ export default {
                 });
                 aunit.rsUnits = rsUnits;
                 _this.infoList.push(aunit);
-                console.log(rsUnits);
+                //_this.scrollControl("imWindow");
             });
   
                  
@@ -126,6 +145,10 @@ export default {
         quickInput(val){
             this.questionText = val;
             this.sendQuestion();
+        },
+        scrollControl(id){
+            var mdiv = document.getElementById(id);
+            mdiv.scrollTop = mdiv.scrollHeight;
         }
     },
     mounted(){
