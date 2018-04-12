@@ -28,10 +28,10 @@
             <div class="dialog-title">
                 {{question}}
             </div>
-            <div class="dialog-info">
+            <!-- <div class="dialog-info">
                 <span>{{date}}</span>
                 <span>笔者 {{autor}}</span>
-            </div>
+            </div> -->
             <div>
                 <textarea readonly class="dialog-text" v-model="resultText"></textarea>
             </div>
@@ -46,7 +46,7 @@
 <script>
 import testData from '../common/data/testData.json'
 export default {
-    props:["question","resultText","website","date","autor"],
+    props:["question","resultText","website"/* ,"date","autor" */],
     data(){
         return{
             /* question:"", */
@@ -58,10 +58,10 @@ export default {
     },
     methods:{
       setResult(){
-          this.question = testData["result"][0].question;
+          /* this.question = testData["result"][0].question;
           this.resultText = testData["result"][0].answer;
           this.website = testData["result"][0].sourceweb;
-          this.date = testData["result"][0].date;
+          this.date = testData["result"][0].date; */
       },
       jumpToSourceWeb(){
         window.open(this.website);

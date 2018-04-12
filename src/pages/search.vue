@@ -8,7 +8,7 @@
     </div>
     <div class="search-result-content">
       <div class="search-result-info">
-          找到约 {{rsNum}} 条结果
+          找到约 {{rsNumStr}} 条结果
       </div>
       <div>
         <el-row>
@@ -16,8 +16,7 @@
             :question=rsUnit.question
             :resultText=rsUnit.answer
             :website=rsUnit.sourceweb
-            :date=rsUnit.date
-            :autor=rsUnit.autor>
+            >
           </component>
         </el-row>
       </div>
@@ -26,7 +25,9 @@
       <el-pagination
         background
         layout="prev, pager, next"
-        :total="430">
+        :current-page=curPage
+        @current-change="handlePageChange"
+        :total=rsNum>
       </el-pagination>
     </div>
   </div>
@@ -35,14 +36,17 @@
 <script>
 import ResultUnit from '../components/ResultUnit.vue'
 import testData from '../common/data/testData.json'   //demo用伪数据
+import goData from '../common/data/googleData.json'
 export default {
   data(){
     return{
       resultComp:"ResultUnit",
-      rsNum:430,
+      rsNumStr:"",
+      rsNum:10,
       searchtext:"",
       rsUnits:[],
-      key:""
+      key:"",
+      curPage:1
     }
   },
   components:{
@@ -60,10 +64,51 @@ export default {
       $.get(this.ServerPath.ipAddress+this.ServerPath.getAnswer,requestData).done(function(res){
           //console.log(res);
       });
+
+      /* requestData.key = "AIzaSyAB47tp2jJYwm1136krSRiksoBdLlGP8qM";
+      requestData.cx = "001544261301121368412:csncfzyjp40";
+      requestData.num = 10;
+      requestData.q = this.$route.query.question;
+      console.log(requestData);
+      $.get("https://www.googleapis.com/customsearch/v1",requestData).done(function(res){
+          console.log(res);
+      }); */
+    },
+    getAnswerFromGoogle(startIndex){
+      var requestData={};
+      requestData.key = "AIzaSyAB47tp2jJYwm1136krSRiksoBdLlGP8qM";
+      requestData.cx = "001544261301121368412:csncfzyjp40";
+      requestData.start = startIndex;
+      requestData.q = this.$route.query.question;
+      //console.log(requestData);
+      var _this = this;
+      $.get("https://www.googleapis.com/customsearch/v1",requestData).done(function(res){
+          //console.log(res);
+          _this.setTestData(res);
+      });
+    },
+    handlePageChange(val){
+      var startIndex = 1+(val-1)*10;
+      this.getAnswerFromGoogle(startIndex);
     },
     //demo用伪数据
-    getTestData(){
-      this.rsUnits = testData["result"];
+    setTestData(goData){
+      //this.rsUnits = testData["result"];
+      this.rsNumStr = goData.searchInformation.formattedTotalResults;
+      this.rsNum = parseInt(goData.searchInformation.totalResults);
+      var items = goData.items;
+      this.rsUnits=[];
+      var id=1;
+      items.forEach(element => {
+        var unit = {};
+        unit.id = id;
+        unit.question = element.title;
+        var snippet = element.snippet.replace(/\n/g,"");
+        unit.answer = snippet;
+        unit.sourceweb = element.link;
+        this.rsUnits.push(unit);
+        id = id+1;
+      });
     },
     getResult(){
       //字符串判空或全是空格
@@ -76,12 +121,14 @@ export default {
       requestData.question = this.searchtext;
       this.$router.push({path:'/search',query:{question:this.searchtext}}); 
       //this.getAnswerFromServer();
+      this.getAnswerFromGoogle(1);
     }
   },
   mounted(){
     this.init();
     //this.getAnswerFromServer();
-    this.getTestData();
+    //this.setTestData(goData);
+    this.getAnswerFromGoogle(1)
   }
 }
 </script>

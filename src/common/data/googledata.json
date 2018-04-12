@@ -1,0 +1,334 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+     "type": "application/json",
+     "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+     "request": [
+      {
+       "title": "Google Custom Search - 如何查看房屋产权年限",
+       "totalResults": "43400",
+       "searchTerms": "如何查看房屋产权年限",
+       "count": 10,
+       "startIndex": 1,
+       "inputEncoding": "utf8",
+       "outputEncoding": "utf8",
+       "safe": "off",
+       "cx": "001544261301121368412:csncfzyjp40"
+      }
+     ],
+     "nextPage": [
+      {
+       "title": "Google Custom Search - 如何查看房屋产权年限",
+       "totalResults": "43400",
+       "searchTerms": "如何查看房屋产权年限",
+       "count": 10,
+       "startIndex": 11,
+       "inputEncoding": "utf8",
+       "outputEncoding": "utf8",
+       "safe": "off",
+       "cx": "001544261301121368412:csncfzyjp40"
+      }
+     ]
+    },
+    "context": {
+     "title": "estate search"
+    },
+    "searchInformation": {
+     "searchTime": 0.458258,
+     "formattedSearchTime": "0.46",
+     "totalResults": "43400",
+     "formattedTotalResults": "43,400"
+    },
+    "items": [
+     {
+      "kind": "customsearch#result",
+      "title": "查询房屋产权年限怎么查询？房屋产权年限是多少年？(北京链家网)",
+      "htmlTitle": "查询\u003cb\u003e房屋产权年限\u003c/b\u003e怎么查询？\u003cb\u003e房屋产权年限\u003c/b\u003e是多少年？(北京链家网)",
+      "link": "https://bj.lianjia.com/wenda/xiangqing/47826.html",
+      "displayLink": "bj.lianjia.com",
+      "snippet": "2016年6月24日 ... 房屋的产权证件有房产证与土地证。房产证上的年限是永久的，没有时间限制，是\n永久的固定资产，可以抵押继承等。土地证的使用年限是根据土地的使用性质而定，\n分别是40年、50年、70年，住宅的房屋土地使用年限是70年。没有房产证的房屋一般\n是40年和50年。可以查询土地的使用性质就可以知道房屋的产权年限 ...",
+      "htmlSnippet": "2016年6月24日 \u003cb\u003e...\u003c/b\u003e 房屋的产权证件有\u003cb\u003e房产\u003c/b\u003e证与土地证。\u003cb\u003e房产\u003c/b\u003e证上的\u003cb\u003e年限\u003c/b\u003e是永久的，没有时间限制，是\u003cbr\u003e\n永久的固定资产，可以抵押继承等。土地证的使用\u003cb\u003e年限\u003c/b\u003e是根据土地的使用性质而定，\u003cbr\u003e\n分别是40年、50年、70年，住宅的房屋土地使用\u003cb\u003e年限\u003c/b\u003e是70年。没有\u003cb\u003e房产\u003c/b\u003e证的房屋一般\u003cbr\u003e\n是40年和50年。可以查询土地的使用性质就可以知道房屋的产权\u003cb\u003e年限\u003c/b\u003e&nbsp;...",
+      "cacheId": "LVLpFsUksi4J",
+      "formattedUrl": "https://bj.lianjia.com/wenda/xiangqing/47826.html",
+      "htmlFormattedUrl": "https://bj.lianjia.com/wenda/xiangqing/47826.html",
+      "pagemap": {
+       "metatags": [
+        {
+         "format-detection": "telephone=no",
+         "applicable-device": "pc",
+         "mobile-agent": "format=html5;url=https://m.lianjia.com/bj/wenda/xiangqing/47826.html"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "买房子的时候怎么查房屋产权年限查询？土地使用年限到期怎么办 ...",
+      "htmlTitle": "买房子的时候怎么查\u003cb\u003e房屋产权年限\u003c/b\u003e查询？土地使用\u003cb\u003e年限\u003c/b\u003e到期怎么办 ...",
+      "link": "https://bj.lianjia.com/wenda/xiangqing/91303.html",
+      "displayLink": "bj.lianjia.com",
+      "snippet": "2016年8月18日 ... 房产证是没有使用年限的，一般房屋产权是永久的，只有土地使用年限才有国家规定\n。因为我们在买房子的时候，土地永远的国家的，只是你买了70年的使用权而已，而\n房子的所有权永远都是你的。在土地产权到期之后，可以续交土地出让金。 一、买\n房子的时候怎么查房屋产权年限查询？ 1.要去当地你办理房产证的 ...",
+      "htmlSnippet": "2016年8月18日 \u003cb\u003e...\u003c/b\u003e \u003cb\u003e房产\u003c/b\u003e证是没有使用\u003cb\u003e年限\u003c/b\u003e的，一般\u003cb\u003e房屋产权\u003c/b\u003e是永久的，只有土地使用\u003cb\u003e年限\u003c/b\u003e才有国家规定\u003cbr\u003e\n。因为我们在买房子的时候，土地永远的国家的，只是你买了70年的使用权而已，而\u003cbr\u003e\n房子的所有权永远都是你的。在土地产权到期之后，可以续交土地出让金。 一、买\u003cbr\u003e\n房子的时候怎么查\u003cb\u003e房屋产权年限\u003c/b\u003e查询？ 1.要去当地你办理\u003cb\u003e房产\u003c/b\u003e证的&nbsp;...",
+      "cacheId": "2wCTTt__CIsJ",
+      "formattedUrl": "https://bj.lianjia.com/wenda/xiangqing/91303.html",
+      "htmlFormattedUrl": "https://bj.lianjia.com/wenda/xiangqing/91303.html",
+      "pagemap": {
+       "metatags": [
+        {
+         "format-detection": "telephone=no",
+         "applicable-device": "pc",
+         "mobile-agent": "format=html5;url=https://m.lianjia.com/bj/wenda/xiangqing/91303.html"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "房屋产权年限怎么算？知道这些才不吃亏！ - 房天下买房知识",
+      "htmlTitle": "\u003cb\u003e房屋产权年限\u003c/b\u003e怎么算？知道这些才不吃亏！ - 房天下买房知识",
+      "link": "http://zhishi.fang.com/xf/qg_299271.html",
+      "displayLink": "zhishi.fang.com",
+      "snippet": "需要注意的是，公房的土地使用年限是从本楼栋第一套房上市之日算起的。例如，\n一个建成于1980年的公房小区，某栋楼在2000年第一次出现了二手房交易，那么这\n栋楼的土地使用年限就从2000年开始算起，到期时间是2070年。 4、怎么查房屋产权\n年限？ 住宅的产权年限可以查看自己的《房地产权证》，这张证书能看到房屋产权和\n土地 ...",
+      "htmlSnippet": "需要注意的是，公房的土地使用\u003cb\u003e年限\u003c/b\u003e是从本楼栋第一套房上市之日算起的。例如，\u003cbr\u003e\n一个建成于1980年的公房小区，某栋楼在2000年第一次出现了二手房交易，那么这\u003cbr\u003e\n栋楼的土地使用\u003cb\u003e年限\u003c/b\u003e就从2000年开始算起，到期时间是2070年。 4、怎么查\u003cb\u003e房屋产权\u003c/b\u003e\u003cbr\u003e\n\u003cb\u003e年限\u003c/b\u003e？ 住宅的产权\u003cb\u003e年限\u003c/b\u003e可以\u003cb\u003e查看\u003c/b\u003e自己的《房地产权证》，这张证书能看到\u003cb\u003e房屋产权\u003c/b\u003e和\u003cbr\u003e\n土地&nbsp;...",
+      "cacheId": "1eqsq4EMO04J",
+      "formattedUrl": "zhishi.fang.com/xf/qg_299271.html",
+      "htmlFormattedUrl": "zhishi.fang.com/xf/qg_299271.html",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "259",
+         "height": "194",
+         "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGw0FiPrx9pXWli9tblYK1uFPjTI2pUS83Yvc02t5PPvKnNYqMVTQOPoQS"
+        }
+       ],
+       "metatags": [
+        {
+         "mobile-agent": "format=html5;url=https://m.fang.com/zhishi/xf/qg_299271.html"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "http://pic.guojj.com/zhishi_img/site_news_img/2017-08-31/59a7f0bda16603140.png"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "买房怎么查产权？新房、二手房都怎么查询？ - 房天下买房知识",
+      "htmlTitle": "买房怎么查\u003cb\u003e产权\u003c/b\u003e？新房、二手房都怎么查询？ - 房天下买房知识",
+      "link": "http://zhishi.fang.com/xf/qg_161446.html",
+      "displayLink": "zhishi.fang.com",
+      "snippet": "2016年5月11日 ... 无论购买新房还是二手房，购房者都必须查清房屋的产权年限。二手房交易中，很多\n纠纷起源于产权年限，所以二手房购房者都知道提前查看房屋产权。但其实新房的\n产权年限也成为...",
+      "htmlSnippet": "2016年5月11日 \u003cb\u003e...\u003c/b\u003e 无论购买新房还是二手房，购房者都必须查清房屋的产权\u003cb\u003e年限\u003c/b\u003e。二手房交易中，很多\u003cbr\u003e\n纠纷起源于产权\u003cb\u003e年限\u003c/b\u003e，所以二手房购房者都知道提前\u003cb\u003e查看房屋产权\u003c/b\u003e。但其实新房的\u003cbr\u003e\n产权\u003cb\u003e年限\u003c/b\u003e也成为...",
+      "cacheId": "vNKrAYnPTkMJ",
+      "formattedUrl": "zhishi.fang.com/xf/qg_161446.html",
+      "htmlFormattedUrl": "zhishi.fang.com/xf/qg_161446.html",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "254",
+         "height": "199",
+         "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShk3if7sEFKW_8wB6aDnPvtmCWdIKlVk0hU7HlWd4alJ7oLFTbLTlerhk"
+        }
+       ],
+       "metatags": [
+        {
+         "mobile-agent": "format=html5;url=https://m.fang.com/zhishi/xf/qg_161446.html"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "http://imgs.soufun.com/news/2016_05/11/zhishi/1462958277352_000.jpg"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "怎么查询二手房产权年限与房屋土地使用权年限?",
+      "htmlTitle": "怎么查询二手房\u003cb\u003e产权年限\u003c/b\u003e与\u003cb\u003e房屋\u003c/b\u003e土地使用权\u003cb\u003e年限\u003c/b\u003e?",
+      "link": "https://zhuanlan.zhihu.com/p/35042694",
+      "displayLink": "zhuanlan.zhihu.com",
+      "snippet": "2018年3月28日 ... 如今，二手房市场越来越火，越来越多的购房者都越来越青睐二手房了，但是在买\n之前一定要先知道产权年限，因为这关系到购房人买的房子还能住多久。那么，二手\n住宅产权年限如何查询呢?跟随小编一起来看看吧！ 一、什么是房屋产权年限? 我国\n房屋产权由房屋所有权和土地使用权两部分组成，房屋所有权的期限 ...",
+      "htmlSnippet": "2018年3月28日 \u003cb\u003e...\u003c/b\u003e 如今，二手房市场越来越火，越来越多的购房者都越来越青睐二手房了，但是在买\u003cbr\u003e\n之前一定要先知道产权\u003cb\u003e年限\u003c/b\u003e，因为这关系到购房人买的房子还能住多久。那么，二手\u003cbr\u003e\n住宅产权\u003cb\u003e年限\u003c/b\u003e如何查询呢?跟随小编一起来看看吧！ 一、什么是\u003cb\u003e房屋产权年限\u003c/b\u003e? 我国\u003cbr\u003e\n\u003cb\u003e房屋产权\u003c/b\u003e由房屋所有权和土地使用权两部分组成，房屋所有权的期限&nbsp;...",
+      "cacheId": "DsZv-kKKVUgJ",
+      "formattedUrl": "https://zhuanlan.zhihu.com/p/35042694",
+      "htmlFormattedUrl": "https://zhuanlan.zhihu.com/p/35042694",
+      "pagemap": {
+       "metatags": [
+        {
+         "viewport": "width=device-width,initial-scale=1,maximum-scale=1",
+         "renderer": "webkit",
+         "force-rendering": "webkit",
+         "og:title": "怎么查询二手房产权年限与房屋土地使用权年限?",
+         "og:url": "http://zhuanlan.zhihu.com/p/35042694",
+         "og:description": "如今，二手房市场越来越火，越来越多的购房者都越来越青睐二手房了，但是在买之前一定要先知道产权年限，因为这关系到购房人买的房子还能住多久。那么，二手住宅产权年限如何查询呢?跟随小编一起来看看吧！ 一、什…",
+         "og:type": "article",
+         "og:site_name": "知乎专栏"
+        }
+       ],
+       "hcard": [
+        {
+         "fn": "小花",
+         "nickname": "小花",
+         "url": "https://www.zhihu.com/people/xiao-hua-53-5-1",
+         "photo": "https://pic1.zhimg.com/v2-331b598fca78c4c5470d3128ce47aa92_is.jpg"
+        }
+       ],
+       "person": [
+        {
+         "name": "小花",
+         "image": "https://pic1.zhimg.com/v2-331b598fca78c4c5470d3128ce47aa92_is.jpg",
+         "url": "https://www.zhihu.com/people/xiao-hua-53-5-1"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "房屋的产权年限如何查询？房屋产权年限是如何划分的？(北京链家网)",
+      "htmlTitle": "房屋的产权\u003cb\u003e年限\u003c/b\u003e如何查询？\u003cb\u003e房屋产权年限\u003c/b\u003e是如何划分的？(北京链家网)",
+      "link": "https://bj.lianjia.com/wenda/xiangqing/51181.html",
+      "displayLink": "bj.lianjia.com",
+      "snippet": "2016年7月6日 ... 很多人都担心买房以后剩余的土地年限缩水，那么房屋的产权年限要如何查询呢？要\n怎么才能对购买的房屋产权年限还有多少年进行查询呢？今天就告诉大家如何对\n产权年限进行查询。 查询之前首选要分清70年、50年、40年产权。 根据我国《城镇\n国有土地使用权出让和转让暂行条例》第12条规定，土地使用权出让 ...",
+      "htmlSnippet": "2016年7月6日 \u003cb\u003e...\u003c/b\u003e 很多人都担心买房以后剩余的土地\u003cb\u003e年限\u003c/b\u003e缩水，那么房屋的产权\u003cb\u003e年限\u003c/b\u003e要如何查询呢？要\u003cbr\u003e\n怎么才能对购买的\u003cb\u003e房屋产权年限\u003c/b\u003e还有多少年进行查询呢？今天就告诉大家如何对\u003cbr\u003e\n产权\u003cb\u003e年限\u003c/b\u003e进行查询。 查询之前首选要分清70年、50年、40年产权。 根据我国《城镇\u003cbr\u003e\n国有土地使用权出让和转让暂行条例》第12条规定，土地使用权出让&nbsp;...",
+      "cacheId": "Z0bWXg6JP7EJ",
+      "formattedUrl": "https://bj.lianjia.com/wenda/xiangqing/51181.html",
+      "htmlFormattedUrl": "https://bj.lianjia.com/wenda/xiangqing/51181.html",
+      "pagemap": {
+       "metatags": [
+        {
+         "format-detection": "telephone=no",
+         "applicable-device": "pc",
+         "mobile-agent": "format=html5;url=https://m.lianjia.com/bj/wenda/xiangqing/51181.html"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "购房前如何分辨产权年限及房屋属性- 房天下买房知识",
+      "htmlTitle": "购房前如何分辨\u003cb\u003e产权年限\u003c/b\u003e及\u003cb\u003e房屋\u003c/b\u003e属性- 房天下买房知识",
+      "link": "http://zhishi.fang.com/xf/fs_132832.html",
+      "displayLink": "zhishi.fang.com",
+      "snippet": "你知道一般人买房时都要搞清楚房子是70年产权还是50年产权，你知道你的房子\n属于什么房么？除了常见的商品房，保障房，还有房改房、存量房等，你都听说过吗？",
+      "htmlSnippet": "你知道一般人买房时都要搞清楚房子是70年\u003cb\u003e产权\u003c/b\u003e还是50年\u003cb\u003e产权\u003c/b\u003e，你知道你的房子\u003cbr\u003e\n属于什么房么？除了常见的商品房，保障房，还有房改房、存量房等，你都听说过吗？",
+      "cacheId": "7IKi0PfTMUwJ",
+      "formattedUrl": "zhishi.fang.com/xf/fs_132832.html",
+      "htmlFormattedUrl": "zhishi.fang.com/xf/fs_132832.html",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "252",
+         "height": "200",
+         "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2K28W7CMGGhXvTDsLcO_WBjEV2ya21reyajGGVkpPI_e2JjgbjUDQ-HM"
+        }
+       ],
+       "metatags": [
+        {
+         "mobile-agent": "format=html5;url=https://m.fang.com/zhishi/xf/fs_132832.html"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "http://imgs.soufun.com/news/2015_12/31/zhishi/1451551482872_000.jpg"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "二手房产权年限怎么确定？怎么查产权年限？ - 房天下买房知识",
+      "htmlTitle": "二手房\u003cb\u003e产权年限\u003c/b\u003e怎么确定？怎么查\u003cb\u003e产权年限\u003c/b\u003e？ - 房天下买房知识",
+      "link": "http://zhishi.fang.com/xf/qg_194309.html",
+      "displayLink": "zhishi.fang.com",
+      "snippet": "2016年10月26日 ... 虽然经适房和两限房在上市的时候也要缴纳土地收益金，但这两种房子与老公房的\n土地使用年限计算方式不同，前两种房子是从开发商拿地之日算起，而老公房是从本\n栋楼第一套房成交之日算起。 怎么查房屋产权年限呢？ 住宅的产权年限可以查看\n自己的产权证，而土地证则可以看出土地剩余使用年限，有些城市已经 ...",
+      "htmlSnippet": "2016年10月26日 \u003cb\u003e...\u003c/b\u003e 虽然经适房和两限房在上市的时候也要缴纳土地收益金，但这两种房子与老公房的\u003cbr\u003e\n土地使用\u003cb\u003e年限\u003c/b\u003e计算方式不同，前两种房子是从开发商拿地之日算起，而老公房是从本\u003cbr\u003e\n栋楼第一套房成交之日算起。 怎么查\u003cb\u003e房屋产权年限\u003c/b\u003e呢？ 住宅的产权\u003cb\u003e年限\u003c/b\u003e可以\u003cb\u003e查看\u003c/b\u003e\u003cbr\u003e\n自己的产权证，而土地证则可以看出土地剩余使用\u003cb\u003e年限\u003c/b\u003e，有些城市已经&nbsp;...",
+      "cacheId": "3rQgzCNFyqEJ",
+      "formattedUrl": "zhishi.fang.com/xf/qg_194309.html",
+      "htmlFormattedUrl": "zhishi.fang.com/xf/qg_194309.html",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "259",
+         "height": "194",
+         "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz9voT9Jsbgje1_gCzoGeVo-5nj_nXy33x3wpZvD4K0Hg4GfkaR8jP4X8X"
+        }
+       ],
+       "metatags": [
+        {
+         "mobile-agent": "format=html5;url=https://m.fang.com/zhishi/xf/qg_194309.html"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "http://imgs.soufun.com/news/2016_10/26/zhishi/1477450847409_000.jpg"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "“如何查看房子产权年限？",
+      "htmlTitle": "“\u003cb\u003e如何查看\u003c/b\u003e房子\u003cb\u003e产权年限\u003c/b\u003e？",
+      "link": "http://zhishi.fang.com/xf/zhuanti/201708/chanquanruhejisuan.html",
+      "displayLink": "zhishi.fang.com",
+      "snippet": "房子产权产权年限土地使用年限. 一般房屋产权是指房产所在土地的使用年限！ 房\n天下购房指南. 查看往期精彩内容. 一张图专题列表. 关注房天下购房指南.",
+      "htmlSnippet": "房子产权产权\u003cb\u003e年限\u003c/b\u003e土地使用\u003cb\u003e年限\u003c/b\u003e. 一般\u003cb\u003e房屋产权\u003c/b\u003e是指\u003cb\u003e房产\u003c/b\u003e所在土地的使用\u003cb\u003e年限\u003c/b\u003e！ 房\u003cbr\u003e\n天下购房指南. \u003cb\u003e查看\u003c/b\u003e往期精彩内容. 一张图专题列表. 关注房天下购房指南.",
+      "cacheId": "uj881EnXIpkJ",
+      "formattedUrl": "zhishi.fang.com/xf/zhuanti/201708/chanquanruhejisuan.html",
+      "htmlFormattedUrl": "zhishi.fang.com/xf/zhuanti/201708/chanquanruhejisuan.html",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "312",
+         "height": "162",
+         "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRueNEXbXfrStZt3V2TZBY86_hvnTk4hZLJPaCo_2V7oDcd8tL9W7Go0kzC"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "http://imgs0.soufunimg.com/news/2017_08/25/1503633053301.jpg"
+        }
+       ]
+      }
+     },
+     {
+      "kind": "customsearch#result",
+      "title": "调查二手房的产权年限有必要吗？怎样查询？_腾讯网",
+      "htmlTitle": "调查二手房的\u003cb\u003e产权年限\u003c/b\u003e有必要吗？怎样查询？_腾讯网",
+      "link": "https://xw.qq.com/cmsid/20180310A0D9A000",
+      "displayLink": "xw.qq.com",
+      "snippet": "2018年3月10日 ... 房屋产权年限关系到购房者的直接利益，不论是新房还是二手房，房屋产权年限都是\n不容忽视的重大问题。今天大家就来跟小编一起来了解一下关于调查二手房的产权\n年限有必要吗以及怎样查询二手房产权年限的相关信息吧。 调查二手房的产权年限\n有必要吗？ 买房产要投入相当大的一笔资金，稍有不慎，购房人的 ...",
+      "htmlSnippet": "2018年3月10日 \u003cb\u003e...\u003c/b\u003e \u003cb\u003e房屋产权年限\u003c/b\u003e关系到购房者的直接利益，不论是新房还是二手房，\u003cb\u003e房屋产权年限\u003c/b\u003e都是\u003cbr\u003e\n不容忽视的重大问题。今天大家就来跟小编一起来了解一下关于调查二手房的产权\u003cbr\u003e\n\u003cb\u003e年限\u003c/b\u003e有必要吗以及怎样查询二手房产权\u003cb\u003e年限\u003c/b\u003e的相关信息吧。 调查二手房的产权\u003cb\u003e年限\u003c/b\u003e\u003cbr\u003e\n有必要吗？ 买\u003cb\u003e房产\u003c/b\u003e要投入相当大的一笔资金，稍有不慎，购房人的&nbsp;...",
+      "cacheId": "xpU_me9DvFoJ",
+      "formattedUrl": "https://xw.qq.com/cmsid/20180310A0D9A000",
+      "htmlFormattedUrl": "https://xw.qq.com/cmsid/20180310A0D9A000",
+      "pagemap": {
+       "cse_thumbnail": [
+        {
+         "width": "227",
+         "height": "148",
+         "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtn0wqgFPwekv4CtehKc8G366AHkd2LaRJQx9GyWQ7Q9MU9Hg_KsqArpp"
+        }
+       ],
+       "metatags": [
+        {
+         "viewport": "width=device-width, initial-scale=1.0, user-scalable=no",
+         "format-detection": "telephone=no",
+         "apple-mobile-web-app-capable": "yes",
+         "apple-mobile-web-app-status-bar-style": "black"
+        }
+       ],
+       "cse_image": [
+        {
+         "src": "https://img1.gtimg.com/rcdimg/20180310/15/7102572281_227x148.jpg"
+        }
+       ]
+      }
+     }
+    ]
+   }
