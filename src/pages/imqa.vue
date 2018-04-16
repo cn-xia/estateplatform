@@ -95,7 +95,7 @@ export default {
             $.get(this.ServerPath.ipAddress+this.ServerPath.getAnswer,serverData).done(function(res){
                 //console.log(res);
                 if(res.errCode == 10){
-                    console.log(res);
+                    //console.log(res);
                     var quesProcessed = "";
                     res.keyWords.forEach(element =>{
                         quesProcessed = quesProcessed+element+" ";

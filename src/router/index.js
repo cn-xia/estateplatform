@@ -11,13 +11,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'imqa',
-      component: imqa
+      name: 'index',
+      component: index
     },
     {
       path:'/search',
       name:'search',
       component:search
+    },
+    {
+      path:'/im',
+      name:'im',
+      component:imqa
     }
   ]
 })

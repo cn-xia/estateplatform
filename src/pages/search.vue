@@ -35,8 +35,9 @@
 
 <script>
 import ResultUnit from '../components/ResultUnit.vue'
-import testData from '../common/data/testData.json'   //demo用伪数据
-import goData from '../common/data/googleData.json'
+//import testData from '../common/data/testData.json'   //demo用伪数据
+//import goData from '../common/data/googleData.json'
+var curQuesProcsed;
 export default {
   data(){
     return{
@@ -61,36 +62,34 @@ export default {
       var requestData={};
       requestData.question = this.$route.query.question;
       //console.log(requestData);
+      var _this = this;
       $.get(this.ServerPath.ipAddress+this.ServerPath.getAnswer,requestData).done(function(res){
           //console.log(res);
-          console.log(res);
+          if(res.errCode==10){
+            curQuesProcsed = "";
+            res.keyWords.forEach(element =>{
+                curQuesProcsed = curQuesProcsed+element+" ";
+            });
+            _this.getAnswerFromGoogle(1,curQuesProcsed);
+          }
       });
-
-      /* requestData.key = "AIzaSyAB47tp2jJYwm1136krSRiksoBdLlGP8qM";
-      requestData.cx = "001544261301121368412:csncfzyjp40";
-      requestData.num = 10;
-      requestData.q = this.$route.query.question;
-      console.log(requestData);
-      $.get("https://www.googleapis.com/customsearch/v1",requestData).done(function(res){
-          console.log(res);
-      }); */
     },
-    getAnswerFromGoogle(startIndex){
+    getAnswerFromGoogle(startIndex,quesProcsed){
       var requestData={};
       requestData.key = "AIzaSyAB47tp2jJYwm1136krSRiksoBdLlGP8qM";
       requestData.cx = "001544261301121368412:csncfzyjp40";
       requestData.start = startIndex;
-      requestData.q = this.$route.query.question;
+      requestData.q = quesProcsed;
       //console.log(requestData);
       var _this = this;
-      $.get("https://www.googleapis.com/customsearch/v1",requestData).done(function(res){
+      $.get(this.ServerPath.demoAddress,requestData).done(function(res){
           //console.log(res);
           _this.setTestData(res);
       });
     },
     handlePageChange(val){
       var startIndex = 1+(val-1)*10;
-      this.getAnswerFromGoogle(startIndex);
+      this.getAnswerFromGoogle(startIndex,curQuesProcsed);
     },
     //demo用伪数据
     setTestData(goData){
@@ -128,7 +127,7 @@ export default {
   mounted(){
     this.init();
     this.getAnswerFromServer();
-    this.setTestData(goData);
+    //this.setTestData(goData);
     //this.getAnswerFromGoogle(1)
   }
 }
